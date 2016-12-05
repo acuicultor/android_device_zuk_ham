@@ -33,6 +33,10 @@ ro.qualcomm.bluetooth.nap=true
 ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
 
+# Specific device info (Bliss building)
+ro.product.model=Z1
+ro.product.device=ham
+
 # GPS
 persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1

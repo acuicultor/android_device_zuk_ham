@@ -1,0 +1,12 @@
+[
+  {
+   "repository": "CyanogenMod/android_device_qcom_common",
+   "target_path": "device/qcom/common",
+   "revision": "cm-14.1"
+ },
+ {
+   "repository": "CyanogenMod/android_device_qcom_sepolicy",
+   "target_path": "device/qcom/sepolicy",
+   "revision": "cm-14.1"
+ }
+]

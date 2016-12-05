@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/zuk/ham/ham.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
-PRODUCT_NAME := cm_ham
+PRODUCT_NAME := bliss_ham
 PRODUCT_DEVICE := ham
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_MODEL := ZUK Z1
@@ -33,6 +33,4 @@ TARGET_VENDOR := zuk
 TARGET_VENDOR_PRODUCT_NAME := ham
 TARGET_VENDOR_DEVICE_NAME := Z1
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=Z1 PRODUCT_NAME=ham
-
-TARGET_UNOFFICIAL_BUILD_ID := OrdenKrieger
 

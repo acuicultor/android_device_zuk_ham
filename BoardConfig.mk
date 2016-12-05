@@ -197,3 +197,29 @@ endif
 #    $(DEVICE_PATH)/sepolicy
 
 -include vendor/zuk/ham/BoardConfigVendor.mk
+
+# Block_Build
+Bliss_Build_Block:=1
+
+# Blissful building options
+TARGET_OTA_ASSERT_DEVICE := ham,Z1
+BLISSIFY := true
+BLISS_O3 := false
+BLISS_GRAPHITE := false
+BLISS_STRICT := false
+BLISS_KRAIT := true
+BLISS_PIPE := true
+#FLOOP_NEST_OPTIMIZE := true
+#ENABLE_GCCONLY := true
+#TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+#FAST_MATH := true
+#ENABLE_MODULAR_O3 := true
+#ENABLE_LTO := true
+#LINK_TIME_OPTIMIZATIONS := true
+#TARGET_USE_ION_COMPAT := true
+#TARGET_USE_KRAIT_PLD_SET := true
+TARGET_TC_ROM := 4.9-linaro
+TARGET_TC_KERNEL := 4.8
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+
